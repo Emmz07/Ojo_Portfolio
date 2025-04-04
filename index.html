@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ojo Emmanuel - Portfolio</title>
+    <!-- Linking external CSS files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <!-- Sidebar section -->
+        <aside class="sidebar">
+            <!-- Theme toggle button -->
+            <div class="theme-toggle">
+                <i class="fas fa-sun" id="theme-toggle"></i>
+            </div>
+            <!-- Profile section -->
+            <div class="profile-container">
+                <div class="profile-image-border">
+                    <img src="public/ojo.jpg" alt="Ojo Emmanuel" class="profile-image" />
+                </div>
+                <br>
+                <div class="profile-text">
+                    <p>Hello I'm</p>
+                    <h3>Ojo Emmanuel</h3>
+                    <p>a Software Engineer</p>
+                </div>
+                <br>
+                <!-- Social media links -->
+                <div class="social-icons">
+                    <a href="https://github.com/Emmz07" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ojo-emmanuel-86782a25a/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Emmanue87766227" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:ojoemmanueltiwalade.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main content section -->
+        <main class="main-content">
+            <!-- Hero section -->
+            <section class="hero" id="home">
+                <h1 class="animate-fade-in">Hi, I'm Ojo Emmanuel</h1>
+                <h2 class="animate-fade-in">Frontend Engineer</h2>
+                <p class="animate-fade-in">A passionate software engineer with over 4 years of experience in building modern web applications. Specialized in frontend development with expertise in React, Next.js, and TypeScript. Currently focused on creating scalable solutions and improving developer experience at MobileKings.</p>
+                <div class="cta-buttons animate-fade-in">
+                    <a href="public/OjoResume.pdf" class="btn primary" download="">Download CV</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </section>
+
+            <!-- Work experience section -->
+            <section class="experience section-animate" id="experience">
+                <h2>Work Experience</h2>
+                <div class="experience-item animate-slide-up">
+                    <h3>Senior Frontend Engineer</h3>
+                    <h4>MobileKings</h4>
+                    <p class="date">October 2023 – Present</p>
+                    <ul>
+                        <li>Component Libraries: Built and maintained reusable, scalable, and customizable components using design systems like Material-UI, TailwindCSS, or Chakra UI.</li>
+                        <li>Performance Optimization: Enhanced application performance by analyzing and improving load times, memory usage, and responsiveness.</li>
+                        <li>Collaboration: Worked closely with cross-functional teams, including backend engineers, designers, and product managers, to deliver seamless user experiences.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item animate-slide-up">
+                    <h3>Frontend Developer Intern and Freelancer</h3>
+                    <h4>McG Technologies</h4>
+                    <p class="date">January 2020 - March 2023</p>
+                    <ul>
+                        <li>Gained foundational and intermediate frontend development skills</li>
+                        <li>Code Reviews: Conducted code reviews to ensure high-quality, maintainable, and bug-free code adhering to industry best practices.</li>
+                        <li>Involved in testing and debugging during site revamp</li>
+                        <li>Worked as a freelancer to gain personal experience</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Achievements section -->
+            <section class="achievements section-animate" id="achievements">
+                <h2>Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-item animate-slide-up">
+                        <i class="fas fa-rocket"></i>
+                        <p>Migrated legacy codebase to a modern React/TypeScript stack, resulting in a 35% performance boost</p>
+                    </div>
+                    <div class="achievement-item animate-slide-up">
+                        <i class="fas fa-moon"></i>
+                        <p>Implemented dark mode feature, increasing retention by 15%</p>
+                    </div>
+                    <div class="achievement-item animate-slide-up">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <p>Reduced page load times by 40% through optimization</p>
+                    </div>
+                    <div class="achievement-item animate-slide-up">
+                        <i class="fas fa-code"></i>
+                        <p>Contributed to component library, decreasing development time by 30%</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects section -->
+            <section class="projects section-animate" id="projects">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card animate-slide-up">
+                        <h3>TradeWithChun</h3>
+                        <img src="public/copytr.png" alt="TradeWithChun Project" class="project-image" />
+                        <p>A stock trading platform with real-time market data, copy-trading, portfolio management, and social trading features.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Tailwind</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://copytrading-company-62q6.vercel.app/" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Emmz07/copytradingCompany" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-slide-up">
+                        <h3>Nyroesreign</h3>
+                        <img src="public/nyo.png" alt="Nyroesreign Project" class="project-image" />
+                        <p>Clothing store with a modern design, advanced filtering and sorting options, and seamless checkout process.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Tailwind</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Emmz07/Nyroesreign" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills section -->
+            <section class="skills section-animate" id="skills">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <i class="fab fa-react skill-icon" title="React.js"></i>
+                    <i class="fab fa-js-square skill-icon" title="JavaScript"></i>
+                    <i class="fab fa-html5 skill-icon" title="HTML5"></i>
+                    <i class="fab fa-css3-alt skill-icon" title="CSS3"></i>
+                    <i class="fab fa-node-js skill-icon" title="Node.js"></i>
+                    <i class="fas fa-database skill-icon" title="MySQL"></i>
+                    <i class="fab fa-github skill-icon" title="GitHub"></i>
+                    <i class="fab fa-sass skill-icon" title="Sass"></i>
+                    <i class="fab fa-python skill-icon" title="Python"></i>
+                </div>
+            </section>
+
+            <!-- Education section -->
+            <section class="education section-animate" id="education">
+                <h2>Education</h2>
+                <div class="education-content">
+                    <div class="education-item animate-slide-up">
+                        <h3>National Diploma, Mechatronics Engineering</h3>
+                        <p class="date">2021 - 2024</p>
+                        <p>The Federal Polytechnic Ilaro, Ogun State</p>
+                        <p><strong>Graduated with Distinction</strong></p>
+                    </div>
+                    <div class="education-item animate-slide-up">
+                        <h3>Software Engineering</h3>
+                        <p class="date">March 2025 - June 2025</p>
+                        <p>PLP Academy</p>
+                        <p><strong>Currently Enrolled</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials section -->
+            <section class="testimonials section-animate" id="testimonials">
+                <h2>Testimonials</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card animate-slide-up">
+                        <p>"Emmanuel is an exceptional developer who consistently delivers high-quality work. His attention to detail and problem-solving skills are outstanding."</p>
+                        <div class="testimonial-author">
+                            <strong>Taiwo M.O</strong>
+                            <span>CEO at McG Technologies</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card animate-slide-up">
+                        <p>"Working with Emmanuel was a great experience. He brings both technical expertise and creative solutions to every project. He is a true asset to any team."</p>
+                        <div class="testimonial-author">
+                            <strong>Ojo G.O</strong>
+                            <span>Product Manager at InnovateTech</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section class="contact section-animate" id="contact">
+                <h2>Get in Touch</h2>
+                <form class="contact-form animate-slide-up">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Banner section -->
+    <div class="banner">
+        <div class="banner-content">
+            <h2>Ready to start creating a standard website?</h2>
+            <p>Finest choice for your home & office</p>
+            <a href="#" class="btn primary">Explore</a>
+        </div>
+    </div>
+
+    <!-- Linking JavaScript file -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
